@@ -4,3 +4,46 @@ CORES
 Verde: #49a09d
 LIlás: #5f2c82
 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.664);
+}
+main img {
+   position: relative;
+   height: 220px;
+   width: 250px;
+   display: block;
+   margin: auto;
+   background-position: center center;
+   border-radius: 10px 10px 0px 0px;
+}
+main h1 {
+    text-align: center;
+    padding: 10px;
+}
+main p {
+    padding: 10px;
+    line-height: 1.3em;
+}

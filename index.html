@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mquery.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
+                <img src="imagens/pexels-impermanent-13922675.jpg" alt="">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem vind@. Faça login para aceder à sua conta e poder fazer as configurações no seu perfil</p>
+                <p>Seja bem vind@! <br> Faça login para aceder à sua conta e poder fazer as configurações no seu perfil</p>
                 <form action="login.php" method="post">
-                    
+                    <p>
+                        <label for="iutil">Utilizador</label>
+                        <input type="text" name="util" id="iutil" required>
+                    </p>
+                    <p>
+                        <label for="ipass">Password</label>
+                        <input type="password" name="pass" id="ipass" required>
+                    </p>
                 </form>
             </div>
 

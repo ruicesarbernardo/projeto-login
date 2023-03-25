@@ -35,7 +35,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat bottom right;
+    background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat top center;
     background-size: cover;
     height: 200px;
     width: 250px;

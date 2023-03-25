@@ -9,6 +9,7 @@
         height: 350px;
     }
     section#login > div#imagem {
+        background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat top right;
         float: left;
         width: 40%;
         height: 100%;
@@ -38,6 +39,7 @@
         height: 380px;
     }
     section#login > div#imagem {
+        background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat bottom left;
         float: right;
         width: 48%;
         height: 100%;

@@ -18,26 +18,27 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vind@! <br> Faça login para aceder à sua conta e poder fazer as configurações no seu perfil</p>
+                <form id="formulario" action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            person
+                            </span>
+                        <input type="email" name="login" id="ilogin" placeholder="o seu e-mail" autocomplete="email" required minlength="6" maxlength="30">
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            password
+                            </span>
+                        <input type="password" name="pass" id="ipass" placeholder="a sua password" autocomplete="current-password" required minlength="8" maxlength="20">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="recuperarpassword.html" class="botao">
+                        Recuperar Password <span i class="material-symbols-outlined">mail</span>
+                    </a>
+    
+                </form>
             </div>
-            <form action="login.php" method="post" autocomplete="on">
-                <div id="campo">
-                    <label for="ilogin"><span class="material-symbols-outlined">
-                        person
-                        </span></label>
-                    <input type="email" name="login" id="ilogin" placeholder="o seu e-mail" autocomplete="email" required minlength="6" maxlength="30">
-                </div>
-                <div id="campo">
-                    <label for="ipass"><span class="material-symbols-outlined">
-                        password
-                        </span></label>
-                    <input type="password" name="pass" id="ipass" placeholder="a sua password" autocomplete="current-password" required minlength="8" maxlength="20">
-                </div>
-                <input type="submit" value="Entrar">
-                <a href="recuperarpassword.html">
-                    Recuperar Password <span i class="material-symbols-outlined">mail</span>
-                </a>
-
-            </form>
+            
 
         </section>
     </main>

@@ -34,12 +34,12 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat left bottom;
+    background: #5f2c82 url(../imagens/pexels-impermanent-13922675.jpg) no-repeat bottom right;
     background-size: cover;
     height: 200px;
     width: 250px;
 
-    transition: .3s;
+    transition: .5s;
     transition-timing-function: ease;
 }
 
@@ -48,3 +48,11 @@ section#login > div#formulario {
     padding: 10px;
 
 }
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: .8em;
+    line-height: 1.3em;
+} 
